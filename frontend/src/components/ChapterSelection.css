@@ -1,0 +1,66 @@
+.chapter-selection {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+}
+
+.chapter-selection h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.chapter-list {
+  margin: 15px 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.chapter-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.chapter-item:hover {
+  background-color: #f0f0f0;
+}
+
+.chapter-item.selected {
+  background-color: #e8f4fd;
+  border-color: #2196f3;
+}
+
+.chapter-checkbox {
+  margin-right: 10px;
+}
+
+.chapter-title {
+  flex: 1;
+}
+
+.save-preferences-btn {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.save-preferences-btn:hover {
+  background-color: #3367d6;
+}
+
+.save-preferences-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
