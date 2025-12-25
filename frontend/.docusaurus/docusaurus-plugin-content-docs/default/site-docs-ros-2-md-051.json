@@ -1,0 +1,27 @@
+{
+  "id": "ros2",
+  "title": "ROS2",
+  "description": "This will contain information about ROS2 in the context of Physical AI & Humanoid Robotics.",
+  "source": "@site/docs/ros2.md",
+  "sourceDirName": ".",
+  "slug": "/ros2",
+  "permalink": "/docs/ros2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basics",
+    "permalink": "/docs/basics"
+  },
+  "next": {
+    "title": "Simulation",
+    "permalink": "/docs/simulation"
+  }
+}

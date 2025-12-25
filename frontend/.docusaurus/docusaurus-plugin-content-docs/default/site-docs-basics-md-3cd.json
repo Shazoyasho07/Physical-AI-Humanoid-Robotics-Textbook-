@@ -1,0 +1,27 @@
+{
+  "id": "basics",
+  "title": "Basics",
+  "description": "This will contain the basic concepts of Physical AI & Humanoid Robotics.",
+  "source": "@site/docs/basics.md",
+  "sourceDirName": ".",
+  "slug": "/basics",
+  "permalink": "/docs/basics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/basics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "ROS2",
+    "permalink": "/docs/ros2"
+  }
+}
